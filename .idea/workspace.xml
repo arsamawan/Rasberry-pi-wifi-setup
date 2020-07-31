@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d13a7919-cc8d-49be-bf0f-d19e0e423660" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/nextjs-blog/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-blog/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextjs-blog/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-blog/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextjs-blog/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-blog/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,7 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/nextjs-blog" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fJqAKGsniZAtV3YnC6ZCvQBPNE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -44,6 +42,7 @@
       <workItem from="1596006892640" duration="11000" />
       <workItem from="1596136169868" duration="4593000" />
       <workItem from="1596179481406" duration="604000" />
+      <workItem from="1596181535001" duration="67000" />
     </task>
     <servers />
   </component>

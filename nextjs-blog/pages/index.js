@@ -4,8 +4,7 @@ import Head from 'next/head'
 
 export default function Home() {
   function HomePage() {
-    var cp = require('./auto_script.sh');
-    cp.execFile();
+
   }
   return (
 
