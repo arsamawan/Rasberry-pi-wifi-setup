@@ -1,0 +1,25 @@
+{
+  "name": "respberry-pie",
+  "version": "0.0.0",
+  "description": "respberry auto wifi selection module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arsamawan/Rasberry-pi-wifi-setup.git"
+  },
+  "author": "mizosotraders",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arsamawan/Rasberry-pi-wifi-setup/issues"
+  },
+  "homepage": "https://github.com/arsamawan/Rasberry-pi-wifi-setup#readme",
+  "dependencies": {
+    "expres": "0.0.5",
+    "express": "^4.17.1",
+    "milsymbol": "^2.0.0",
+    "open-terminal": "0.0.2"
+  }
+}

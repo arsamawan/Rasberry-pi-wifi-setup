@@ -1,0 +1,2 @@
+npm install --save file-loader url-loader
+npm install --save style-loader css-loader
