@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d13a7919-cc8d-49be-bf0f-d19e0e423660" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/nextjs-blog/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-blog/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-blog/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-blog/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nextjs-blog/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/nextjs-blog/pages/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/nextjs-blog" />
+  </component>
+  <component name="ProjectId" id="1fJqAKGsniZAtV3YnC6ZCvQBPNE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d13a7919-cc8d-49be-bf0f-d19e0e423660" name="Default Changelist" comment="" />
+      <created>1595946398388</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595946398388</updated>
+      <workItem from="1595946399630" duration="870000" />
+      <workItem from="1595947965990" duration="600000" />
+      <workItem from="1596006892640" duration="11000" />
+      <workItem from="1596136169868" duration="4593000" />
+      <workItem from="1596179481406" duration="604000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>
