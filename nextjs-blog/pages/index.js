@@ -1,23 +1,9 @@
 import Head from 'next/head'
-export default function Home() {
-
-  function firstScript() {
-
-<<<<<<< HEAD
-  }
-  function secondScript() {}
-  function thirdScript() {}
-  function fourthScript() {}
-  function fifthScript() {}
-  function sixthScript() {}
-  function seventhScript() {}
-  function eighthScript() {}
-=======
-
+import { useRouter } from 'next/router'
 
 
 export default function Home() {
-  
+    const router = useRouter()
   function firstScript() {
     fetch('http://127.0.0.1:3001/autohospot_internet').then(response => {
       return response;})
@@ -34,9 +20,9 @@ export default function Home() {
     fetch('http://127.0.0.1:3001/remove_autohotspot_or_static_hotspot').then(response => {
       return response;})
   }
-  function fifthScript() {
-    fetch('http://127.0.0.1:3001/change_add_wifi_network').then(response => {
-      return response;})
+  function fifthScript() { // Routing to be added in this Button
+        router.replace('/wifi');
+
   }
   function sixthScript() {
     fetch('http://127.0.0.1:3001/force_hotspot_force_network').then(response => {
@@ -46,16 +32,10 @@ export default function Home() {
     fetch('http://127.0.0.1:3001/change_hotspot_sSID_and_password').then(response => {
       return response;})
 
-
-      // const withImages = require('next-images')
-      // module.exports = withImages()
-    
-    // const img = require("/121.png");   
   }
   let styleConfig = { backgroundimage : '/abc.jpeg' }
 
-  
->>>>>>> bc716e2ecab9ff02754f3ce9c36268adc7191635
+
   return (
 
       
@@ -72,17 +52,6 @@ export default function Home() {
           Respberry Pie Auto Wifi!
         </h1>
 
-<<<<<<< HEAD
-        <div className="grid">
-            <button  className="card" onClick={firstScript}>1</button>
-            <button className="card" onClick={secondScript}>2</button>
-            <button  className="card" onClick={thirdScript}>3</button>
-            <button className="card" onClick={fourthScript}>4</button>
-            <button className="card" onClick={fifthScript}>5</button>
-            <button className="card" onClick={sixthScript}>6</button>
-            <button className="card" onClick={seventhScript}>7</button>
-            <button className="card" onClick={eighthScript}>8</button>
-=======
 
 
         <div className="grid" >
@@ -90,22 +59,16 @@ export default function Home() {
             <button className="card" onClick={secondScript}>Autohotspot Direct</button>
             <button  className="card" onClick={thirdScript}>Static Hotspot</button>
             <button className="card" onClick={fourthScript}>Remove Autohotspot or Static Hotspot</button>
-            <button className="card" onClick={fifthScript}>Change/Add Wifi Network</button>
+            <button className="card" onClick={fifthScript} Link href="/wifi">Change/Add Wifi Network</button>
             <button className="card" onClick={sixthScript}>Force Hotspot</button>
             <button className="card" onClick={seventhScript}>Change Hotspot SSID and Password</button>
->>>>>>> bc716e2ecab9ff02754f3ce9c36268adc7191635
         </div>
 
       </main>
 
 
       <style jsx>{`
-<<<<<<< HEAD
 
-=======
-       
-       
->>>>>>> bc716e2ecab9ff02754f3ce9c36268adc7191635
         .container {
           back  
           min-height: 100vh;
@@ -114,11 +77,7 @@ export default function Home() {
           flex-direction: column;
           justify-content: center;
           align-items: center;
-<<<<<<< HEAD
-         
-=======
-          background-image : "/public/121.png"
->>>>>>> bc716e2ecab9ff02754f3ce9c36268adc7191635
+
         }
         
 
