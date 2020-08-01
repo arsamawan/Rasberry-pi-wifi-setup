@@ -1,0 +1,12 @@
+npm install --save file-loader url-loader
+npm install --save style-loader css-loader
+
+Follow this page and install node.js
+
+https://www.geeksforgeeks.org/installation-of-node-js-on-linux/
+
+
+
+now Install this in the working directory (nextjs blog) 
+Run Command : npm install
+

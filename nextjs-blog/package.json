@@ -8,14 +8,23 @@
     "start": "next start"
   },
   "dependencies": {
+    "file-loader": "^6.0.0",
     "next": "9.3.5",
     "next-images": "^1.4.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
+<<<<<<< HEAD
     "shelljs": "^0.8.4"
   },
   "devDependencies": {
     "css-loader": "^4.1.1",
     "ts-loader": "^8.0.1"
+=======
+    "shelljs": "^0.8.4",
+    "url-loader": "^4.1.0"
+  },
+  "devDependencies": {
+    "css-loader": "^4.1.1"
+>>>>>>> bc716e2ecab9ff02754f3ce9c36268adc7191635
   }
 }

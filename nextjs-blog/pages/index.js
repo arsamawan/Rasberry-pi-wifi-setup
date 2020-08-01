@@ -3,6 +3,7 @@ export default function Home() {
 
   function firstScript() {
 
+<<<<<<< HEAD
   }
   function secondScript() {}
   function thirdScript() {}
@@ -11,19 +12,67 @@ export default function Home() {
   function sixthScript() {}
   function seventhScript() {}
   function eighthScript() {}
+=======
+
+
+
+export default function Home() {
+  
+  function firstScript() {
+    fetch('http://127.0.0.1:3001/autohospot_internet').then(response => {
+      return response;})
+  }
+  function secondScript() {
+    fetch('http://127.0.0.1:3001/autohotspot_direct').then(response => {
+      return response;})
+  }
+  function thirdScript() {
+    fetch('http://127.0.0.1:3001/static_hotspot').then(response => {
+      return response;})
+  }
+  function fourthScript() {
+    fetch('http://127.0.0.1:3001/remove_autohotspot_or_static_hotspot').then(response => {
+      return response;})
+  }
+  function fifthScript() {
+    fetch('http://127.0.0.1:3001/change_add_wifi_network').then(response => {
+      return response;})
+  }
+  function sixthScript() {
+    fetch('http://127.0.0.1:3001/force_hotspot_force_network').then(response => {
+      return response;})
+  }
+  function seventhScript() {
+    fetch('http://127.0.0.1:3001/change_hotspot_sSID_and_password').then(response => {
+      return response;})
+
+
+      // const withImages = require('next-images')
+      // module.exports = withImages()
+    
+    // const img = require("/121.png");   
+  }
+  let styleConfig = { backgroundimage : '/abc.jpeg' }
+
+  
+>>>>>>> bc716e2ecab9ff02754f3ce9c36268adc7191635
   return (
 
-    <div className="container">
+      
+    <div className="container"  style={styleConfig} >
       <Head>
         <title>Rasberry-pi-wifi-setup</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+    
       <main>
+      
+
         <h1 className="title">
-          Welcome to Next.js!
+          Respberry Pie Auto Wifi!
         </h1>
 
+<<<<<<< HEAD
         <div className="grid">
             <button  className="card" onClick={firstScript}>1</button>
             <button className="card" onClick={secondScript}>2</button>
@@ -33,13 +82,30 @@ export default function Home() {
             <button className="card" onClick={sixthScript}>6</button>
             <button className="card" onClick={seventhScript}>7</button>
             <button className="card" onClick={eighthScript}>8</button>
+=======
+
+
+        <div className="grid" >
+            <button  className="card" onClick={firstScript}>Autohospot Internet</button>
+            <button className="card" onClick={secondScript}>Autohotspot Direct</button>
+            <button  className="card" onClick={thirdScript}>Static Hotspot</button>
+            <button className="card" onClick={fourthScript}>Remove Autohotspot or Static Hotspot</button>
+            <button className="card" onClick={fifthScript}>Change/Add Wifi Network</button>
+            <button className="card" onClick={sixthScript}>Force Hotspot</button>
+            <button className="card" onClick={seventhScript}>Change Hotspot SSID and Password</button>
+>>>>>>> bc716e2ecab9ff02754f3ce9c36268adc7191635
         </div>
 
       </main>
 
 
       <style jsx>{`
+<<<<<<< HEAD
 
+=======
+       
+       
+>>>>>>> bc716e2ecab9ff02754f3ce9c36268adc7191635
         .container {
           back  
           min-height: 100vh;
@@ -48,8 +114,13 @@ export default function Home() {
           flex-direction: column;
           justify-content: center;
           align-items: center;
+<<<<<<< HEAD
          
+=======
+          background-image : "/public/121.png"
+>>>>>>> bc716e2ecab9ff02754f3ce9c36268adc7191635
         }
+        
 
         main {
  
@@ -165,6 +236,7 @@ export default function Home() {
         .logo {
           height: 1em;
         }
+        
 
         @media (max-width: 600px) {
           .grid {
@@ -172,7 +244,11 @@ export default function Home() {
             flex-direction: column;
           }
         }
+
+        
       `}</style>
+
+
 
       <style jsx global>{`
         html,

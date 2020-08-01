@@ -1,0 +1,24 @@
+Hy There!
+
+There are two module of this application. First is server side and second is client side. we have to turn both the servers on to get the required out. lets start 
+First you have to install all the dependicies in the the requirments.txt
+After that follow these steps
+
+1) go to backend directory 
+
+run command : node app.js 
+
+By running this command your server will be started and you are able to get results by accessing endpoints now. To confirm that your server is running open this link (http://127.0.0.1:3001/change_hotspot_sSID_and_password) if a terminal will open than your endpoint is working good.
+
+
+2) go to nextjs-blog directory
+
+run command (npm run dev) 
+
+By running this command your front-end server is will be working now you have to open this link
+
+http://127.0.0.1:3000/
+
+
+Your front-end will be displayed here Now you can press the buttons and the related answers
+
