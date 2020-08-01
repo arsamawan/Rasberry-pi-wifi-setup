@@ -1,9 +1,9 @@
 import Head from 'next/head'
-
-
-
 export default function Home() {
-  function firstScript() {}
+
+  function firstScript() {
+
+  }
   function secondScript() {}
   function thirdScript() {}
   function fourthScript() {}
@@ -24,10 +24,6 @@ export default function Home() {
           Welcome to Next.js!
         </h1>
 
-{/*        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>*/}
-
         <div className="grid">
             <button  className="card" onClick={firstScript}>1</button>
             <button className="card" onClick={secondScript}>2</button>
@@ -38,26 +34,32 @@ export default function Home() {
             <button className="card" onClick={seventhScript}>7</button>
             <button className="card" onClick={eighthScript}>8</button>
         </div>
+
       </main>
 
 
       <style jsx>{`
+
         .container {
+          back  
           min-height: 100vh;
           padding: 0 0.5rem;
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
+         
         }
 
         main {
+ 
           padding: 5rem 0;
           flex: 1;
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
+        
         }
 
         footer {
@@ -175,6 +177,7 @@ export default function Home() {
       <style jsx global>{`
         html,
         body {
+
           padding: 0;
           margin: 0;
           font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,

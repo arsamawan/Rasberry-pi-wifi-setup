@@ -27,6 +27,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\nextjs-bash\nextjs-blog\pages" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -42,11 +47,18 @@
       <workItem from="1596006892640" duration="11000" />
       <workItem from="1596136169868" duration="4593000" />
       <workItem from="1596179481406" duration="604000" />
-      <workItem from="1596181535001" duration="676000" />
+      <workItem from="1596181535001" duration="13597000" />
+      <workItem from="1596287182609" duration="11000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1596190715796">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1596190715796" />
   </component>
 </project>

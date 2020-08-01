@@ -9,8 +9,13 @@
   },
   "dependencies": {
     "next": "9.3.5",
+    "next-images": "^1.4.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "shelljs": "^0.8.4"
+  },
+  "devDependencies": {
+    "css-loader": "^4.1.1",
+    "ts-loader": "^8.0.1"
   }
 }
