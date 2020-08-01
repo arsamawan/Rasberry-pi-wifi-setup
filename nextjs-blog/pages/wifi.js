@@ -3,11 +3,13 @@ import Head from 'next/head'
 
 export default function Home() {
 
-    function firstScript() {
-        fetch('http://127.0.0.1:3001/autohospot_internet').then(response => {
-            return response;})
-    }
-
+  function fourthScript() {
+    console.log("Called")
+    fetch('http://127.0.0.1:3001/change_add_wifi_network').then(response => {
+    return response;})
+  }
+      
+    
     let styleConfig = { backgroundimage : '/abc.jpeg' }
 
 
@@ -21,7 +23,11 @@ export default function Home() {
             </Head>
 
             <main>
-
+            <div className="grid" >
+            
+            <button className="card" onClick={fourthScript}>Remove Autohotspot or Static Hotspot</button>
+            
+            </div>
 
                 <h1 className="title">
                      Wifi!

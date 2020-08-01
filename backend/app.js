@@ -70,7 +70,9 @@ app.get('/remove_autohotspot_or_static_hotspot', function (req, res) {
 
 app.get('/change_add_wifi_network', function (req, res) {
   const { exec } = require('child_process');
-  exec('gnome-terminal -- /bin/bash -c "bash Autohotspot/autohotspot-setup.sh SSI;read"', (err, stdout, stderr) => {
+
+  // Autohotspot/demo.sh
+  exec("ls ", (err, stdout, stderr) => {
     if (err) {
       //some err occurred
       console.error(err)
@@ -79,6 +81,8 @@ app.get('/change_add_wifi_network', function (req, res) {
       console.log(`stdout: ${stdout}`);
       console.log(`stderr: ${stderr}`);
     }
+
+    res.header("Access-Control-Allow-Origin", "*");
     res.send(`stdout: ${stdout}`)
   });  
 
