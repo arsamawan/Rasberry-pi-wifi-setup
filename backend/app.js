@@ -21,8 +21,7 @@ app.get('/autohospot_internet', function (req, res) {
 app.get('/autohotspot_direct', function (req, res) {
   const { exec } = require('child_process');
   exec('gnome-terminal -- /bin/bash -c "bash Autohotspot/autohotspot-setup.sh AHD;read"', (err, stdout, stderr) => {
-    if (err) {
-      //some err occurred
+    if (err) {autohospot_internet
       console.error(err)
     } else {
      // the *entire* stdout and stderr (buffered)

@@ -445,6 +445,7 @@ setupssid()
 	read wf
 	if [[ $wf =~ ^[0-9]+$ ]]; then
 		if [ $wf -ge 0 ] && [ $wf -le $ct ]; then
+			
 			updatessid "${wfselect[$wf-1]}"
 		else
 			echo -e "\nNot a Valid entry"
